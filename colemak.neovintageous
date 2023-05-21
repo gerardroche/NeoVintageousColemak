@@ -1,8 +1,6 @@
+" Ported from https://github.com/jooize/vim-colemak
 " The character " (the double quote mark) starts a comment
 " Type :h nv for help.
-
-" Ported from:
-" https://github.com/jooize/vim-colemak/blob/master/plugin/colemak.vim
 
 " Up/down/left/right
 noremap h h

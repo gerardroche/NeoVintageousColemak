@@ -61,7 +61,7 @@
     nnoremap ga gv
 " }}}
 " Search {{{
-" f/F are unchanged
+    " f/F are unchanged
     noremap p t
     noremap P T
     noremap b ;
@@ -70,7 +70,7 @@
     noremap K N
 " }}}
 " inneR text objects {{{
-" E.g. dip (delete inner paragraph) is now drp
+    " E.g. dip (delete inner paragraph) is now drp
     onoremap r i
 " }}}
 " Folds, etc. {{{

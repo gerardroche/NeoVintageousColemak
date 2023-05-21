@@ -2,13 +2,13 @@
 " The character " (the double quote mark) starts a comment
 " Type :h nv for help.
 
-" Up/down/left/right
+" Up/down/left/right {{{
 noremap h h
 noremap n j
 noremap e k
 noremap i l
-
-" Words forward/backward
+" }}}
+" Words forward/backward {{{
 " l/L = back word/WORD
 " u/U = end of word/WORD
 " y/Y = forward word/WORD
@@ -18,19 +18,19 @@ noremap u e
 noremap U E
 noremap y w
 noremap Y W
-
-" inSert/Replace/append (T)
+" }}}
+" inSert/Replace/append (T) {{{
 noremap s i
 noremap S I
 noremap t a
 noremap T A
-
-" Change
+" }}}
+" Change {{{
 noremap w c
 noremap W C
 noremap ww cc
-
-" Cut/copy/paste
+" }}}
+" Cut/copy/paste {{{
 noremap x x
 noremap c y
 noremap v p
@@ -38,22 +38,18 @@ noremap X dd
 noremap C yy
 noremap V P
 noremap gV gP
-
+" }}}
+" Undo/redo {{{
 nnoremap z u
 nnoremap gz U
 nnoremap Z <C-R>
-
-" Undo/redo
-nnoremap z u
-nnoremap gz U
-nnoremap Z <C-R>
-
-" Visual mode
+" }}}
+" Visual mode {{{
 noremap a v
 noremap A V
 nnoremap ga gv
-
-" Search
+" }}}
+" Search {{{
 " f/F are unchanged
 noremap p t
 noremap P T
@@ -61,23 +57,24 @@ noremap b ;
 noremap B ,
 noremap k n
 noremap K N
-
-" inneR text objects
+" }}}
+" inneR text objects {{{
 " E.g. dip (delete inner paragraph) is now drp
 onoremap r i
-
-" Folds, etc.
+" }}}
+" Folds, etc. {{{
 noremap j z
 noremap jn zj
 noremap je zk
-
-" Overridden keys must be prefixed with g
+" }}}
+" Overridden keys must be prefixed with g {{{
 nnoremap gX X
 nnoremap gK K
 nnoremap gL L
-
-" Window handling
+" }}}
+" Window handling {{{
 noremap <C-w>h <C-w>h
 noremap <C-w>n <C-w>j
 noremap <C-w>e <C-w>k
 noremap <C-w>i <C-w>l
+" }}}

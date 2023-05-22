@@ -51,7 +51,6 @@
 " Undo/redo {{{
     nnoremap z u
     nnoremap gz U
-    nnoremap Z <C-R>
 " }}}
 " Visual mode {{{
     nnoremap a v

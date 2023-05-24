@@ -81,3 +81,7 @@ Legend:
 ## Credits
 
 Port of [vim-colemak](https://github.com/jooize/vim-colemak).
+
+## License
+
+Released under the [GPL-3.0-or-later License](LICENSE).

@@ -1,4 +1,4 @@
-# NeoVintageousColemak
+# NeoVintageous Colemak
 
 Colemak key mappings for [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous).
 
@@ -8,7 +8,7 @@ Colemak key mappings for [NeoVintageous](https://github.com/NeoVintageous/NeoVin
 
 **Pending availability in Package Control.**
 
-Install via [Package Control](https://packagecontrol.io/packages/NeoVintageousColemak).
+Install [NeoVintageousColemak](https://packagecontrol.io/packages/NeoVintageousColemak) via Package Control.
 
 ## Key mappings
 

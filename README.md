@@ -1,14 +1,20 @@
 # NeoVintageous Colemak
 
-Colemak key mappings for [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous).
+Colemak key mappings for [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous).  Inspired by [vim-colemak](https://github.com/jooize/vim-colemak).
 
-**:sparkles: :sparkles: :sparkles: Experimental plugin :sparkles: :sparkles: :sparkles:**
+**:sparkles: :sparkles: :sparkles: Experimental :sparkles: :sparkles: :sparkles:**
 
 ## Installation
 
-**Pending availability in Package Control.**
+Copy the mappings from [colemak.neovintageous](colemak.neovintageous) to your neovintageousrc file and reload it.
 
-Install [NeoVintageousColemak](https://packagecontrol.io/packages/NeoVintageousColemak) via Package Control.
+Command Palette → NeoVintageous: Open RC File
+
+Command Palette → NeoVintageous: Reload RC File
+
+*There work being done to allow enabling these mapping without having to manually copy them.*
+
+See https://github.com/NeoVintageous/NeoVintageous/issues/918
 
 ## Key mappings
 
@@ -77,10 +83,6 @@ Legend:
 (    v )  Visual+Select mode
 (     x)  Visual mode
 ```
-
-## Credits
-
-Port of [vim-colemak](https://github.com/jooize/vim-colemak).
 
 ## License
 

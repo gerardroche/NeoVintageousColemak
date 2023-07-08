@@ -2,8 +2,6 @@
 
 Colemak key mappings for [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous).  Inspired by [vim-colemak](https://github.com/jooize/vim-colemak).
 
-**:sparkles: :sparkles: :sparkles: Experimental :sparkles: :sparkles: :sparkles:**
-
 ## Installation
 
 Copy the mappings from [colemak.neovintageous](colemak.neovintageous) to your neovintageousrc file and reload it.

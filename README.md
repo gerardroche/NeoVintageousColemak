@@ -1,18 +1,62 @@
 # NeoVintageous Colemak
 
-Colemak key mappings for [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous).  Inspired by [vim-colemak](https://github.com/jooize/vim-colemak).
+Colemak key mappings for [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous).
+
+Inspired by [vim-colemak](https://github.com/jooize/vim-colemak).
 
 ## Installation
 
-Copy the mappings from [colemak.neovintageous](colemak.neovintageous) to your neovintageousrc file and reload it.
+### Package Control installation
 
-Command Palette → NeoVintageous: Open RC File
+**Pending availability**
 
-Command Palette → NeoVintageous: Reload RC File
+Install NeoVintageousColemak via [Package Control](https://packagecontrol.io/packages/NeoVintageousColemak).
 
-*There work being done to allow enabling these mapping without having to manually copy them.*
+### Manual installation
 
-See https://github.com/NeoVintageous/NeoVintageous/issues/918
+Close Sublime Text, then download or clone this repository to a directory named **NeoVintageousColemak** in the Sublime Text Packages directory for your platform:
+
+**Linux**
+
+`git clone https://github.com/gerardroche/NeoVintageousColemak.git ~/.config/sublime-text-3/Packages/NeoVintageousColemak`
+
+**OSX**
+
+`git clone https://github.com/gerardroche/NeoVintageousColemak.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/NeoVintageousColemak`
+
+**Windows**
+
+`git clone https://github.com/gerardroche/NeoVintageousColemak.git %APPDATA%\Sublime/ Text/ 3/Packages/NeoVintageousColemak`
+
+## Setup
+
+### NeoVintageous &gt;= v1.32
+
+Configure NeoVintageous to source the Colemak mappings **before** the neovintageousrc file is sourced.
+
+| Setting | Description
+| :------ | :----------
+| `vintageous_source` | Read Ex commands from a resource before the neovintageourc resource is sourced. This means you can still override these ex commands in your neovintageousrc file. <br>Example: Packages/NeoVintageousColemak/colemak.neovintageous
+
+Command Palette → Preferences: NeoVintageous Settings
+
+```json
+{
+    "vintageous_source": "Packages/NeoVintageousColemak/colemak.neovintageous"
+}
+```
+
+Reload your neovintageousrc file for changes to take effect.
+
+Command Palette → NeoVintageous: Reload .neovintageousrc File
+
+**NeoVintageous &lt;= v1.32**
+
+Manually copy the contents of [colemak.neovintageous](colemak.neovintageous) into your neovintageousrc file and reload it for changes to take effect.
+
+Command Palette → NeoVintageous: Open .neovintageousrc File
+
+Command Palette → NeoVintageous: Reload .neovintageousrc File
 
 ## Key mappings
 

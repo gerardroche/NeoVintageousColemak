@@ -50,7 +50,7 @@ Reload your neovintageousrc file for changes to take effect.
 
 Command Palette → NeoVintageous: Reload .neovintageousrc File
 
-**NeoVintageous &lt;= v1.32**
+### NeoVintageous &lt; v1.32
 
 Manually copy the contents of [colemak.neovintageous](colemak.neovintageous) into your neovintageousrc file and reload it for changes to take effect.
 

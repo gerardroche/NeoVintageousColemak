@@ -6,27 +6,34 @@ Inspired by [vim-colemak](https://github.com/jooize/vim-colemak).
 
 ## Installation
 
-### Package Control installation
+**Method 1: Using Package Control**
 
 **Pending availability**
 
-Install NeoVintageousColemak via [Package Control](https://packagecontrol.io/packages/NeoVintageousColemak).
+1. Open Sublime Text.
+2. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS) to open the Command Palette.
+3. Type "Package Control: Install Package" and press `Enter`.
+4. In the input field, type "NeoVintageousColemak" and select it from the list of available packages.
 
-### Manual installation
+**Method 2: Manual Installation**
 
-Close Sublime Text, then download or clone this repository to a directory named **NeoVintageousColemak** in the Sublime Text Packages directory for your platform:
+1. Visit the [NeoVintageousColemak GitHub repository](https://github.com/gerardroche/NeoVintageousColemak).
+2. Click on the "Code" button and select "Download ZIP."
+3. Extract the downloaded ZIP file.
+4. Open Sublime Text and go to `Preferences -> Browse Packages...` to open the Packages folder.
+5. Copy the "NeoVintageousColemak" folder from the extracted ZIP and paste it into the Packages folder.
 
-**Linux**
+**Method 3: Manual Git Repository Installation**
 
-`git clone https://github.com/gerardroche/NeoVintageousColemak.git ~/.config/sublime-text-3/Packages/NeoVintageousColemak`
-
-**OSX**
-
-`git clone https://github.com/gerardroche/NeoVintageousColemak.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/NeoVintageousColemak`
-
-**Windows**
-
-`git clone https://github.com/gerardroche/NeoVintageousColemak.git %APPDATA%\Sublime/ Text/ 3/Packages/NeoVintageousColemak`
+1. Open a terminal or command prompt.
+2. Navigate to the Sublime Text Packages directory:
+    - On Windows: `%APPDATA%\Sublime Text\Packages`
+    - On macOS: `~/Library/Application Support/Sublime Text/Packages`
+    - On Linux: `~/.config/sublime-text/Packages`
+3. Clone the plugin repository directly into the Packages directory using Git:
+   ```
+   git clone https://github.com/gerardroche/NeoVintageousColemak.git NeoVintageousColemak
+   ```
 
 ## Setup
 

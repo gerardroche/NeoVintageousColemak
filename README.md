@@ -8,8 +8,6 @@ Inspired by [vim-colemak](https://github.com/jooize/vim-colemak).
 
 **Method 1: Using Package Control**
 
-**Pending availability**
-
 1. Open Sublime Text.
 2. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS) to open the Command Palette.
 3. Type "Package Control: Install Package" and press `Enter`.
